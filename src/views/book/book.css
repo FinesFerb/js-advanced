@@ -1,0 +1,29 @@
+.book_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  border: 1px solid var(--black);
+  border-radius: 6px;
+  padding: 6px 8px 6px 8px;
+}

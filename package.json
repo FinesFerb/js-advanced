@@ -1,0 +1,33 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "librery v2",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c --watch",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinesFerb/js-advanced.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Danil Kargapoltsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FinesFerb/js-advanced/issues"
+  },
+  "homepage": "https://github.com/FinesFerb/js-advanced#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.56.0",
+    "rollup": "^4.9.3",
+    "rollup-plugin-import-css": "^3.3.5"
+  },
+  "dependencies": {
+    "on-change": "^5.0.0"
+  }
+}
